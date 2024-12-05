@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "id": "3593",
+      "task": "Lavar louça",
+      "assignedTo": "João"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "João",
+      "points": 100
+    },
+    {
+      "id": "2",
+      "name": "Maria",
+      "points": 40
+    }
+  ]
+}

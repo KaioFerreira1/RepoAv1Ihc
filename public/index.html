@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizador de Tarefas Domésticas</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper blue darken-2">
+      <a href="#" class="brand-logo center">Tarefas Domésticas</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h4 class="center-align blue-text text-darken-2">Organizador Colaborativo</h4>
+
+    <div class="row">
+      <form id="task-form" class="col s12">
+        <div class="input-field col s6">
+          <input id="task" type="text" class="validate" required>
+          <label for="task">Nova Tarefa</label>
+        </div>
+        <div class="input-field col s4">
+          <select id="assignedTo" class="browser-default" required>
+            <option value="" disabled selected>Selecione o membro</option>
+            <option value="João">João</option>
+            <option value="Maria">Maria</option>
+          </select>
+        </div>
+        <div class="input-field col s2">
+          <button class="btn waves-effect waves-light" type="submit">
+            Adicionar
+            <i class="material-icons right">add</i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <h5 class="blue-text text-darken-2">Tarefas Pendentes</h5>
+    <ul class="collection" id="task-list"></ul>
+
+    <h5 class="blue-text text-darken-2">Ranking de Membros</h5>
+    <ul class="collection" id="ranking-list"></ul>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

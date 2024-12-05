@@ -1,0 +1,40 @@
+body {
+  background-color: #f0f4f8;
+}
+
+.nav-wrapper {
+  padding-left: 20px;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.collection-item {
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #4CAF50;
+}
+
+.btn:hover {
+  background-color: #388E3C;
+}
+
+.input-field label {
+  color: #4CAF50;
+}
+
+.input-field input:focus+label {
+  color: #388E3C;
+}
+
+.input-field input:focus {
+  border-bottom: 1px solid #4CAF50;
+  box-shadow: 0 1px 0 0 #4CAF50;
+}
